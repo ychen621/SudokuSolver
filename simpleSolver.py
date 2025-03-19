@@ -83,7 +83,7 @@ def backtracking(matrix):
             print(line)
         exit(0)
 
-    for i in range(0, 10):
+    for i in range(1, 10):
         if not check_number(r, c, i, matrix):
             matrix[r][c] = i
             if backtracking(matrix):
