@@ -37,3 +37,11 @@
     ```console
     Python3 simpleSolver.py <sudoku_file_name>
     ```
+### Advanced Solver - Minimum Remaining Value (MRV) + Backtracking
+- For more advanced (faster) approach, use the mrvSolver
+- Run command:
+    ```console
+    Python3 mrvSolver.py <sudoku_file_name>
+    ```
+- MRV uses priority queue (Heap) to sort the cell by numbers of remaining possible value for that cell.
+- The cell with less possible value will be tested first to reduce the testing times 
